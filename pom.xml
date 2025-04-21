@@ -80,11 +80,8 @@
             </plugin>
         </plugins>
     </build>
-    <configuration>
-        <suiteXmlFiles>
-            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
-        </suiteXmlFiles>
-    </configuration>
+
+
 
 
 </project>

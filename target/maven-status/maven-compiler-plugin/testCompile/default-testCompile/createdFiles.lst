@@ -1,0 +1,5 @@
+tests\BaseTest.class
+tests\CartPageTest.class
+tests\HomePageTest.class
+tests\ProductPageTest.class
+listeners\TestListener.class

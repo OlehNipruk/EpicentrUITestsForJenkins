@@ -13,7 +13,6 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
     </properties>
 
     <dependencies>
@@ -81,6 +80,11 @@
             </plugin>
         </plugins>
     </build>
+    <configuration>
+        <suiteXmlFiles>
+            <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+        </suiteXmlFiles>
+    </configuration>
 
 
 </project>

@@ -24,12 +24,22 @@ public class CartPageTest extends BaseTest {
         homePage.searchForProduct(NOTEBOOK_PRODUCT_NAME);
         logger.info("Adding '{}' to the cart", NOTEBOOK_PRODUCT_NAME);
         productPage.addProductToCart();
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         driver.navigate().back();
         logger.info("Navigating back to the home page");
         logger.info("Searching for product '{}'", MOUSE_PRODUCT_NAME);
         homePage.searchForProduct(MOUSE_PRODUCT_NAME);
         logger.info("Adding '{}' to the cart", MOUSE_PRODUCT_NAME);
         productPage.addProductToCart();
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         int cartItemCount = cartPage.getCartItemCount();
         logger.info("Cart item count: {}", cartItemCount);
         Assert.assertEquals(cartItemCount, 2, "Cart does not contain expected number of items!");

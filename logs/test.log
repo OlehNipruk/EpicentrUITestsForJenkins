@@ -16,3 +16,65 @@
 2025-04-22 09:33:56 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (1fa44fdb35a6b97b3afadce97d7c2531)] -> xpath: //button[@aria-label='Пошук']]
 2025-04-22 09:34:01 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
 2025-04-22 09:34:01 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-22 11:11:32 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-22 11:11:32 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-22 11:11:37 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-22 11:11:40 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-22 11:11:40 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-22 11:11:40 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-22 11:11:40 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-22 11:11:40 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> class name: _JcImSJ] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-22 11:11:41 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-22 11:11:47 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-22 11:11:47 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> xpath: //button[text()='Купити']]
+2025-04-22 11:11:49 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-22 11:11:49 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-22 11:11:49 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-22 11:11:49 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> class name: _JcImSJ] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-22 11:11:49 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-22 11:11:52 [main] INFO  tests.CartPageTest - Adding 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)' to the cart
+2025-04-22 11:11:54 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> xpath: //button[text()='Купити']]
+2025-04-22 11:11:55 [main] INFO  tests.CartPageTest - Cart item count: 2
+2025-04-22 11:11:55 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-22 11:11:56 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-22 11:11:56 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-22 11:11:57 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-22 11:12:00 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-22 11:12:00 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-22 11:12:00 [main] INFO  tests.CartPageTest - Test: testAddToCart
+2025-04-22 11:12:00 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-22 11:12:00 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (02ff3d43009c69936b285b51bbce1bba)] -> class name: _JcImSJ] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-22 11:12:01 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (02ff3d43009c69936b285b51bbce1bba)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-22 11:12:07 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (02ff3d43009c69936b285b51bbce1bba)] -> xpath: //button[text()='Купити']]
+2025-04-22 11:12:07 [main] INFO  driver.LoggingWebElementDecorator - Getting text from element: [[ChromeDriver: chrome on windows (02ff3d43009c69936b285b51bbce1bba)] -> xpath: //h1[@data-product-name='']] Text: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-22 11:12:07 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-22 11:12:08 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-22 11:12:08 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-22 11:12:09 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-22 11:12:11 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-22 11:12:12 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-22 11:12:12 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-22 11:12:12 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-22 11:12:12 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-22 11:12:12 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-22 11:12:12 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-22 11:12:13 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-22 11:12:16 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-22 11:12:16 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-22 11:12:16 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-22 11:12:17 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (23b5a0ff7196f4b65b273bdb473ca1a9)] -> class name: _JcImSJ] Keys: Ноутбук
+2025-04-22 11:12:17 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (23b5a0ff7196f4b65b273bdb473ca1a9)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-22 11:12:20 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
+2025-04-22 11:12:20 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-22 11:12:20 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-22 11:12:20 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-22 11:12:21 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-22 11:12:25 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-22 11:12:25 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-22 11:12:25 [main] INFO  tests.ProductPageTest - Test: testProductName - Searching for existing product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-22 11:12:25 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-22 11:12:25 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (85aa15e2f321b2e185374bd4f0f6dafb)] -> class name: _JcImSJ] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-22 11:12:25 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (85aa15e2f321b2e185374bd4f0f6dafb)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-22 11:12:31 [main] INFO  driver.LoggingWebElementDecorator - Getting text from element: [[ChromeDriver: chrome on windows (85aa15e2f321b2e185374bd4f0f6dafb)] -> xpath: //h1[@class='_aql9TB _7TBdaN _GuJjCI']] Text: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-22 11:12:31 [main] INFO  tests.ProductPageTest - Expected product name: 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey', Found product name: 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-22 11:12:31 [main] INFO  driver.SingletonDriver - Closing WebDriver

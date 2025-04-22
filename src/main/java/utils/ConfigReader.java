@@ -17,8 +17,18 @@ public class ConfigReader {
     }
 
     public static String getProperty(String key) {
+        // Спочатку шукаємо параметр у системних властивостях
+        String systemValue = System.getProperty(key);
+        if (systemValue != null) {
+            return systemValue;
+        }
         return properties.getProperty(key);
     }
+
+
+//    public static String getProperty(String key) {
+//        return properties.getProperty(key);
+//    }
 
     public static int getIntProperty(String key) {
         return Integer.parseInt(properties.getProperty(key));

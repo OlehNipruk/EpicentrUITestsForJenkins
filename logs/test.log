@@ -1,80 +1,745 @@
-2025-04-22 09:33:38 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
-2025-04-22 09:33:38 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
-2025-04-22 09:33:45 [main] INFO  driver.SingletonDriver - Browser window maximized
-2025-04-22 09:33:49 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
-2025-04-22 09:33:49 [main] INFO  tests.BaseTest - Implicit Wait: 15s
-2025-04-22 09:33:49 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
-2025-04-22 09:33:49 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
-2025-04-22 09:33:49 [main] INFO  driver.SingletonDriver - Closing WebDriver
-2025-04-22 09:33:50 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
-2025-04-22 09:33:50 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
-2025-04-22 09:33:52 [main] INFO  driver.SingletonDriver - Browser window maximized
-2025-04-22 09:33:56 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
-2025-04-22 09:33:56 [main] INFO  tests.BaseTest - Implicit Wait: 15s
-2025-04-22 09:33:56 [main] INFO  pages.HomePage - Searching for product: Ноутбук
-2025-04-22 09:33:56 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (1fa44fdb35a6b97b3afadce97d7c2531)] -> class name: _JcImSJ] Keys: Ноутбук
-2025-04-22 09:33:56 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (1fa44fdb35a6b97b3afadce97d7c2531)] -> xpath: //button[@aria-label='Пошук']]
-2025-04-22 09:34:01 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
-2025-04-22 09:34:01 [main] INFO  driver.SingletonDriver - Closing WebDriver
-2025-04-22 11:11:32 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
-2025-04-22 11:11:32 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
-2025-04-22 11:11:37 [main] INFO  driver.SingletonDriver - Browser window maximized
-2025-04-22 11:11:40 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
-2025-04-22 11:11:40 [main] INFO  tests.BaseTest - Implicit Wait: 15s
-2025-04-22 11:11:40 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
-2025-04-22 11:11:40 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
-2025-04-22 11:11:40 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> class name: _JcImSJ] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
-2025-04-22 11:11:41 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> xpath: //button[@aria-label='Пошук']]
-2025-04-22 11:11:47 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
-2025-04-22 11:11:47 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> xpath: //button[text()='Купити']]
-2025-04-22 11:11:49 [main] INFO  tests.CartPageTest - Navigating back to the home page
-2025-04-22 11:11:49 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
-2025-04-22 11:11:49 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
-2025-04-22 11:11:49 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> class name: _JcImSJ] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
-2025-04-22 11:11:49 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> xpath: //button[@aria-label='Пошук']]
-2025-04-22 11:11:52 [main] INFO  tests.CartPageTest - Adding 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)' to the cart
-2025-04-22 11:11:54 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bc261db8f01dd85c83190404511a8d8)] -> xpath: //button[text()='Купити']]
-2025-04-22 11:11:55 [main] INFO  tests.CartPageTest - Cart item count: 2
-2025-04-22 11:11:55 [main] INFO  driver.SingletonDriver - Closing WebDriver
-2025-04-22 11:11:56 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
-2025-04-22 11:11:56 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
-2025-04-22 11:11:57 [main] INFO  driver.SingletonDriver - Browser window maximized
-2025-04-22 11:12:00 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
-2025-04-22 11:12:00 [main] INFO  tests.BaseTest - Implicit Wait: 15s
-2025-04-22 11:12:00 [main] INFO  tests.CartPageTest - Test: testAddToCart
-2025-04-22 11:12:00 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
-2025-04-22 11:12:00 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (02ff3d43009c69936b285b51bbce1bba)] -> class name: _JcImSJ] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
-2025-04-22 11:12:01 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (02ff3d43009c69936b285b51bbce1bba)] -> xpath: //button[@aria-label='Пошук']]
-2025-04-22 11:12:07 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (02ff3d43009c69936b285b51bbce1bba)] -> xpath: //button[text()='Купити']]
-2025-04-22 11:12:07 [main] INFO  driver.LoggingWebElementDecorator - Getting text from element: [[ChromeDriver: chrome on windows (02ff3d43009c69936b285b51bbce1bba)] -> xpath: //h1[@data-product-name='']] Text: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
-2025-04-22 11:12:07 [main] INFO  driver.SingletonDriver - Closing WebDriver
-2025-04-22 11:12:08 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
-2025-04-22 11:12:08 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
-2025-04-22 11:12:09 [main] INFO  driver.SingletonDriver - Browser window maximized
-2025-04-22 11:12:11 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
-2025-04-22 11:12:12 [main] INFO  tests.BaseTest - Implicit Wait: 15s
-2025-04-22 11:12:12 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
-2025-04-22 11:12:12 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
-2025-04-22 11:12:12 [main] INFO  driver.SingletonDriver - Closing WebDriver
-2025-04-22 11:12:12 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
-2025-04-22 11:12:12 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
-2025-04-22 11:12:13 [main] INFO  driver.SingletonDriver - Browser window maximized
-2025-04-22 11:12:16 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
-2025-04-22 11:12:16 [main] INFO  tests.BaseTest - Implicit Wait: 15s
-2025-04-22 11:12:16 [main] INFO  pages.HomePage - Searching for product: Ноутбук
-2025-04-22 11:12:17 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (23b5a0ff7196f4b65b273bdb473ca1a9)] -> class name: _JcImSJ] Keys: Ноутбук
-2025-04-22 11:12:17 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (23b5a0ff7196f4b65b273bdb473ca1a9)] -> xpath: //button[@aria-label='Пошук']]
-2025-04-22 11:12:20 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
-2025-04-22 11:12:20 [main] INFO  driver.SingletonDriver - Closing WebDriver
-2025-04-22 11:12:20 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
-2025-04-22 11:12:20 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
-2025-04-22 11:12:21 [main] INFO  driver.SingletonDriver - Browser window maximized
-2025-04-22 11:12:25 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
-2025-04-22 11:12:25 [main] INFO  tests.BaseTest - Implicit Wait: 15s
-2025-04-22 11:12:25 [main] INFO  tests.ProductPageTest - Test: testProductName - Searching for existing product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
-2025-04-22 11:12:25 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
-2025-04-22 11:12:25 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (85aa15e2f321b2e185374bd4f0f6dafb)] -> class name: _JcImSJ] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
-2025-04-22 11:12:25 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (85aa15e2f321b2e185374bd4f0f6dafb)] -> xpath: //button[@aria-label='Пошук']]
-2025-04-22 11:12:31 [main] INFO  driver.LoggingWebElementDecorator - Getting text from element: [[ChromeDriver: chrome on windows (85aa15e2f321b2e185374bd4f0f6dafb)] -> xpath: //h1[@class='_aql9TB _7TBdaN _GuJjCI']] Text: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
-2025-04-22 11:12:31 [main] INFO  tests.ProductPageTest - Expected product name: 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey', Found product name: 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
-2025-04-22 11:12:31 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:13:31 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:13:31 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:13:37 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:13:40 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:13:40 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:13:40 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 10:13:40 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 10:13:40 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:13:41 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:13:41 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:13:43 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:13:45 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:13:45 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:13:45 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:14:01 [main] ERROR listeners.TestListener - Test failed: testSearchProduct. Screenshot: target/screenshots/testSearchProduct_20250426_101401.png
+2025-04-26 10:14:01 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:40:42 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:40:42 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:40:47 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:40:49 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:40:49 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:40:49 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 10:40:50 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 10:40:50 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:40:51 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:40:51 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:40:52 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:40:55 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:40:55 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:40:55 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:40:55 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (0bccdf1359cd4edd693095fffe5b978e)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 10:40:55 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0bccdf1359cd4edd693095fffe5b978e)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 10:40:59 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 10:41:00 [main] ERROR listeners.TestListener - Test failed: testSearchProduct. Screenshot: target/screenshots/testSearchProduct_20250426_104100.png
+2025-04-26 10:41:00 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:45:52 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:45:52 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:45:57 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:45:59 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:45:59 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:45:59 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 10:45:59 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 10:45:59 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:46:00 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:46:00 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:46:03 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:46:04 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:46:04 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:46:04 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:46:05 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (6c18b0472af5a5de6087cddd2a0a526a)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 10:46:05 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (6c18b0472af5a5de6087cddd2a0a526a)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 10:46:09 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 10:46:09 [main] ERROR listeners.TestListener - Test failed: testSearchProduct. Screenshot: target/screenshots/testSearchProduct_20250426_104609.png
+2025-04-26 10:46:09 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:48:35 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:48:35 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:48:39 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:48:42 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:48:42 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:48:42 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 10:48:42 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 10:48:42 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:48:42 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:48:42 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:48:44 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:48:46 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:48:46 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:48:46 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:48:46 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (0073c42ff90f540db428f47738986f5f)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 10:48:46 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (0073c42ff90f540db428f47738986f5f)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 10:48:52 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 10:48:53 [main] ERROR listeners.TestListener - Test failed: testSearchProduct. Screenshot: target/screenshots/testSearchProduct_20250426_104853.png
+2025-04-26 10:48:53 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:49:22 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:49:22 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:49:25 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:49:27 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:49:27 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:49:27 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 10:49:27 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 10:49:27 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:49:28 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:49:28 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: chrome
+2025-04-26 10:49:29 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:49:31 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:49:31 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:49:31 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:49:31 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[ChromeDriver: chrome on windows (e35edad38e7dcea6295ef0d52ad652c0)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 10:49:32 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[ChromeDriver: chrome on windows (e35edad38e7dcea6295ef0d52ad652c0)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 10:49:38 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 10:49:39 [main] ERROR listeners.TestListener - Test failed: testSearchProduct. Screenshot: target/screenshots/testSearchProduct_20250426_104939.png
+2025-04-26 10:49:39 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:51:02 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:51:02 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 10:51:06 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:51:08 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:51:08 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:51:08 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 10:51:08 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 10:51:08 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:51:09 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:51:09 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 10:51:10 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:51:12 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:51:12 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:51:12 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:51:12 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (ec0464e736c79b57ff146987b9fb99eb)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 10:51:13 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (ec0464e736c79b57ff146987b9fb99eb)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 10:51:24 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 10:51:24 [main] ERROR listeners.TestListener - Test failed: testSearchProduct. Screenshot: target/screenshots/testSearchProduct_20250426_105124.png
+2025-04-26 10:51:24 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:53:34 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:53:34 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 10:53:38 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:53:41 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:53:41 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:53:41 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:53:41 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (87b7ec772378bfcec1779aeb33cd5343)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 10:53:41 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (87b7ec772378bfcec1779aeb33cd5343)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 10:53:52 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 10:53:52 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:57:53 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:57:53 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 10:58:02 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:58:04 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:58:04 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:58:04 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:58:04 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (ed8d8d1cb45bb3bd39c10a27eefb38e2)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 10:58:04 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (ed8d8d1cb45bb3bd39c10a27eefb38e2)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 10:58:16 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 10:58:16 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 10:59:10 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 10:59:10 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 10:59:15 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 10:59:17 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 10:59:17 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 10:59:17 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 10:59:18 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (b43ac0b94a5b858b38a91abfa8e974e1)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 10:59:18 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (b43ac0b94a5b858b38a91abfa8e974e1)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 10:59:29 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 10:59:29 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:08:43 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:08:43 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:08:48 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:08:51 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:08:51 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:08:51 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:08:51 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (7d499f29221d14a1bf6e135cf7192a0e)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:08:51 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (7d499f29221d14a1bf6e135cf7192a0e)] -> css selector: button[aria-label='Пошук']]
+2025-04-26 11:08:57 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:08:57 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:10:11 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:10:11 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:10:18 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:10:21 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:10:21 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:10:21 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:10:36 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:12:16 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:12:16 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:12:21 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:12:24 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:12:24 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:12:24 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:12:25 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (8f89baffe906e05ffde64afd76db85ce)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:12:25 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (8f89baffe906e05ffde64afd76db85ce)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 11:12:36 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:12:36 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:13:46 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:13:46 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:13:50 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:13:52 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:13:52 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:13:52 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:13:52 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (f3cdbb820f0205ac21fbfb9fd6a1a012)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:13:57 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (f3cdbb820f0205ac21fbfb9fd6a1a012)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 11:14:03 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:14:03 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:14:49 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:14:49 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:14:53 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:14:54 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:14:54 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:14:54 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:14:55 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (efc82b8600c4e092a0fd7fa2af6ab099)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:15:06 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (efc82b8600c4e092a0fd7fa2af6ab099)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 11:15:06 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:15:06 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:18:39 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:18:39 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:18:45 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:18:48 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:18:48 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:18:48 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:18:49 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (bb455751cc02b76e4a5094ecfa6ebab2)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:18:49 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (bb455751cc02b76e4a5094ecfa6ebab2)] -> class name: _vrmZib] Keys: 
+2025-04-26 11:18:51 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/?/
+2025-04-26 11:18:51 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:19:38 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:19:38 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:19:41 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:19:43 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:19:43 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:19:43 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:19:43 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (855803849e020a49236d0720e3f1a670)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:19:44 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (855803849e020a49236d0720e3f1a670)] -> class name: _vrmZib] Keys: 
+2025-04-26 11:19:53 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:19:53 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:20:43 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:20:43 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:20:47 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:20:48 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:20:48 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:20:48 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:20:49 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (26e44824d036e03746663fa8f389ee0c)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:20:57 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/?%2F
+2025-04-26 11:20:57 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:22:18 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:22:18 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:22:23 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:22:25 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:22:25 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:22:25 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:22:25 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (942909986ad394de15f0714ffce77693)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:22:36 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (942909986ad394de15f0714ffce77693)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 11:22:51 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:22:51 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:28:08 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:28:08 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:28:13 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:28:15 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:28:15 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:28:15 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 11:28:15 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 11:28:15 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:28:16 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:28:16 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:28:17 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:28:19 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:28:19 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:28:19 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:28:19 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (2d572931b52782a3ab78157548fc2a08)] -> class name: _vrmZib] Keys: Ноутбук
+2025-04-26 11:28:30 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (2d572931b52782a3ab78157548fc2a08)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 11:28:45 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:28:45 [main] ERROR listeners.TestListener - Test failed: testSearchProduct. Screenshot: target/screenshots/testSearchProduct_20250426_112845.png
+2025-04-26 11:28:45 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:35:58 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:35:58 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:36:03 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:36:04 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:36:04 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:36:04 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 11:36:04 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 11:36:04 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:36:13 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:36:13 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:36:16 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:36:19 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:36:19 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:36:19 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:36:34 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:39:16 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:39:16 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:39:19 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:39:21 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:39:21 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:39:21 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:39:21 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (1070241cbabfd83e483fe5149115da09)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 11:39:31 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (1070241cbabfd83e483fe5149115da09)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 11:39:46 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:39:46 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:48:54 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:48:54 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:48:58 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:49:00 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:49:00 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:49:00 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:49:00 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (1c53fee2c0ae5b939a421e6882ff2db0)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 11:49:25 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 11:49:25 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 11:57:23 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 11:57:23 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 11:57:26 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 11:57:28 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 11:57:28 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 11:57:28 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 11:57:28 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (7bfb9aff0db4cf36af3cdfe914d9a6f4)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 11:57:49 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/?%2F
+2025-04-26 11:57:49 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:03:11 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:03:11 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:03:15 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:03:17 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:03:17 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:03:17 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:03:17 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:04:23 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:04:23 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:04:26 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:04:27 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:04:27 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:04:27 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:04:27 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (d149d83409a1acd1c5b93de5a04cb032)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:04:28 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (d149d83409a1acd1c5b93de5a04cb032)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:04:28 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:06:06 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:06:06 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:06:08 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:06:11 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:06:11 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:06:11 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:06:11 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (157cfed47bf3e47880d2dbbb2b0a7f30)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:06:15 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (157cfed47bf3e47880d2dbbb2b0a7f30)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:06:15 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:22:11 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:22:11 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:22:14 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:22:16 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:22:16 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:22:16 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:22:16 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (6be99a3c1fffcd390100e229f724896d)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:22:17 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (6be99a3c1fffcd390100e229f724896d)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:22:17 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 12:22:17 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:26:29 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:26:29 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:26:32 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:26:33 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:26:33 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:26:33 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:26:33 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (4292bc421eedc52f67dbe941577ffd25)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:26:39 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/?%2F
+2025-04-26 12:26:39 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:27:46 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:27:46 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:27:48 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:27:50 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:27:50 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:27:50 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:27:50 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (9d45b61936fae25545710ec954a15ee6)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:27:55 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (9d45b61936fae25545710ec954a15ee6)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:27:56 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (9d45b61936fae25545710ec954a15ee6)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:27:56 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 12:27:56 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:28:25 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:28:25 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:28:27 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:28:28 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:28:28 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:28:28 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:28:29 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (70575648a6f7fa6647ba2f73ac6dc741)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:28:34 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (70575648a6f7fa6647ba2f73ac6dc741)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:28:39 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (70575648a6f7fa6647ba2f73ac6dc741)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:28:39 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 12:28:39 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:29:14 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:29:14 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:29:16 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:29:18 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:29:18 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:29:18 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:29:18 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (3cf9f88eb2c650c2fb463809b1e274f1)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:29:23 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (3cf9f88eb2c650c2fb463809b1e274f1)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:29:28 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (3cf9f88eb2c650c2fb463809b1e274f1)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:29:36 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
+2025-04-26 12:29:36 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:29:51 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:29:51 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:29:53 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:29:55 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:29:55 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:29:55 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:29:55 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:29:55 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (4593c026f79ed6707bedb5aa7ff37234)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:30:00 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (4593c026f79ed6707bedb5aa7ff37234)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:30:06 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (4593c026f79ed6707bedb5aa7ff37234)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:30:11 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:30:11 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (4593c026f79ed6707bedb5aa7ff37234)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:30:15 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:30:15 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:30:15 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:30:15 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (4593c026f79ed6707bedb5aa7ff37234)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:30:20 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (4593c026f79ed6707bedb5aa7ff37234)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:30:21 [main] ERROR listeners.TestListener - Test failed: testAddMultipleProductsToCart. Screenshot: target/screenshots/testAddMultipleProductsToCart_20250426_123021.png
+2025-04-26 12:30:21 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:30:21 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:30:21 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:30:22 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:30:24 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:30:24 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:30:24 [main] INFO  tests.CartPageTest - Test: testAddToCart
+2025-04-26 12:30:24 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:30:24 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (5f5b91767b9dd19e0718d2b159dc6ca1)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:30:29 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (5f5b91767b9dd19e0718d2b159dc6ca1)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:30:35 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (5f5b91767b9dd19e0718d2b159dc6ca1)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:30:40 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (5f5b91767b9dd19e0718d2b159dc6ca1)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:30:40 [main] INFO  driver.LoggingWebElementDecorator - Getting text from element: [[EdgeDriver: MicrosoftEdge on windows (5f5b91767b9dd19e0718d2b159dc6ca1)] -> xpath: //h1[@data-product-name='']] Text: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:30:40 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:30:40 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:30:40 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:30:41 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:30:42 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:30:42 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:30:42 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 12:30:43 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 12:30:43 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:30:43 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:30:43 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:30:44 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:30:46 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:30:46 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:30:46 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:30:46 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (f8ccbac9485e8c1341b0ce1534f5109e)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:30:51 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (f8ccbac9485e8c1341b0ce1534f5109e)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:30:56 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (f8ccbac9485e8c1341b0ce1534f5109e)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:31:02 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
+2025-04-26 12:31:02 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:31:02 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:31:02 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:31:03 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:31:04 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:31:04 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:31:04 [main] INFO  tests.ProductPageTest - Test: testProductName - Searching for existing product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:31:04 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:31:05 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (15c8d5fcd8d7fb236cfd255423b224c9)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:31:10 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (15c8d5fcd8d7fb236cfd255423b224c9)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:31:15 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (15c8d5fcd8d7fb236cfd255423b224c9)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:31:20 [main] INFO  driver.LoggingWebElementDecorator - Getting text from element: [[EdgeDriver: MicrosoftEdge on windows (15c8d5fcd8d7fb236cfd255423b224c9)] -> xpath: //h1[@class='_aql9TB _7TBdaN _GuJjCI']] Text: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:31:20 [main] INFO  tests.ProductPageTest - Expected product name: 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey', Found product name: 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:31:20 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:31:40 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:31:40 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:31:43 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:31:44 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:31:44 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:31:44 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:31:44 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:31:44 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (234c9de046b1e0ce29880703a0425d83)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:31:50 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (234c9de046b1e0ce29880703a0425d83)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:31:55 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (234c9de046b1e0ce29880703a0425d83)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:32:00 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:32:00 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (234c9de046b1e0ce29880703a0425d83)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:32:04 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:32:04 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:32:04 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:32:04 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (234c9de046b1e0ce29880703a0425d83)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:32:10 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (234c9de046b1e0ce29880703a0425d83)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:32:10 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:32:26 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:32:26 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:32:29 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:32:30 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:32:30 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:32:30 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:32:30 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:32:30 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (aecec329399e002f8c6cf9738e1db238)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:32:35 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (aecec329399e002f8c6cf9738e1db238)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:32:41 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (aecec329399e002f8c6cf9738e1db238)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:32:46 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:32:46 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (aecec329399e002f8c6cf9738e1db238)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:32:50 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:32:50 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:32:50 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:32:50 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (aecec329399e002f8c6cf9738e1db238)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:32:55 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (aecec329399e002f8c6cf9738e1db238)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:32:55 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:33:30 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:33:30 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:33:32 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:33:34 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:33:34 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:33:34 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:33:34 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:33:34 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (123ae1f67ca0dda32cf759b4025125b2)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:33:39 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (123ae1f67ca0dda32cf759b4025125b2)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:33:44 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (123ae1f67ca0dda32cf759b4025125b2)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:33:50 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:33:50 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (123ae1f67ca0dda32cf759b4025125b2)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:33:54 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:33:54 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:33:54 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:33:54 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (123ae1f67ca0dda32cf759b4025125b2)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:33:59 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (123ae1f67ca0dda32cf759b4025125b2)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:33:59 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:36:36 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:36:36 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:36:38 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:36:39 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:36:39 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:36:39 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:36:40 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (d8a31cafab9b2b459930767beebfc9a6)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:36:40 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (d8a31cafab9b2b459930767beebfc9a6)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:36:48 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (d8a31cafab9b2b459930767beebfc9a6)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:36:56 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/
+2025-04-26 12:36:56 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:37:28 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:37:28 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:37:29 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:37:32 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:37:32 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:37:32 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:37:32 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (dce6d0ce2f7ec4b086125e9b5840b06e)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:37:37 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (dce6d0ce2f7ec4b086125e9b5840b06e)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:37:45 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (dce6d0ce2f7ec4b086125e9b5840b06e)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:37:54 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
+2025-04-26 12:37:54 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:38:09 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:38:09 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:38:11 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:38:12 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:38:12 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:38:12 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:38:12 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:38:13 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (7b446e51544c86bf1c846b2465a47dc6)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:38:18 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (7b446e51544c86bf1c846b2465a47dc6)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:38:26 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (7b446e51544c86bf1c846b2465a47dc6)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:38:34 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:38:34 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (7b446e51544c86bf1c846b2465a47dc6)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:38:39 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:38:39 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:38:39 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:38:39 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (7b446e51544c86bf1c846b2465a47dc6)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:38:44 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (7b446e51544c86bf1c846b2465a47dc6)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:38:44 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:40:02 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:40:02 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:40:04 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:40:06 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:40:06 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:40:06 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:40:06 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (468a95dcfc1b3ba875c54c8c62085981)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:40:11 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (468a95dcfc1b3ba875c54c8c62085981)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:40:11 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (468a95dcfc1b3ba875c54c8c62085981)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:40:19 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
+2025-04-26 12:40:19 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:42:56 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:42:56 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:42:59 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:43:00 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:43:00 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:43:00 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:43:00 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:43:00 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (66e00d9c03c5734ea7fbde91a3cec8ca)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:43:05 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (66e00d9c03c5734ea7fbde91a3cec8ca)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:43:06 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (66e00d9c03c5734ea7fbde91a3cec8ca)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:43:14 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:43:14 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (66e00d9c03c5734ea7fbde91a3cec8ca)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:43:18 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:43:18 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:43:18 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:43:18 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (66e00d9c03c5734ea7fbde91a3cec8ca)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:43:24 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (66e00d9c03c5734ea7fbde91a3cec8ca)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:43:24 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:43:57 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:43:57 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:43:59 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:44:03 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:44:03 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:44:03 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:44:03 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:44:03 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a0d1b52bb77bb94e283dab8c92da2f31)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:44:08 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a0d1b52bb77bb94e283dab8c92da2f31)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:44:09 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (a0d1b52bb77bb94e283dab8c92da2f31)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:44:17 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:44:32 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:44:44 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:44:44 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:44:46 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:44:47 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:44:47 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:44:47 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:44:47 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:44:47 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (740e3430e82f3fc7cbb386b1b57dc260)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:44:53 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (740e3430e82f3fc7cbb386b1b57dc260)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:44:53 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (740e3430e82f3fc7cbb386b1b57dc260)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:45:01 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:45:01 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (740e3430e82f3fc7cbb386b1b57dc260)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:45:10 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:45:10 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:45:10 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:45:10 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (740e3430e82f3fc7cbb386b1b57dc260)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:45:16 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (740e3430e82f3fc7cbb386b1b57dc260)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:45:16 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (740e3430e82f3fc7cbb386b1b57dc260)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:45:24 [main] INFO  tests.CartPageTest - Adding 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)' to the cart
+2025-04-26 12:45:39 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:48:41 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:48:41 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:48:43 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:48:47 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:48:47 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:48:47 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:48:47 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:48:47 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (b83365f71b54a4aa02f14ccd13c06525)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:48:53 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (b83365f71b54a4aa02f14ccd13c06525)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:48:53 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (b83365f71b54a4aa02f14ccd13c06525)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:49:01 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:49:16 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:50:17 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:50:17 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:50:19 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:50:20 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:50:20 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:50:20 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:50:20 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:50:20 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (bef7a3c1e3ea48f3548eb7754ceebc26)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:50:26 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (bef7a3c1e3ea48f3548eb7754ceebc26)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:50:26 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (bef7a3c1e3ea48f3548eb7754ceebc26)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:50:34 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:50:39 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (bef7a3c1e3ea48f3548eb7754ceebc26)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:50:48 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:50:48 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:50:48 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:50:49 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (bef7a3c1e3ea48f3548eb7754ceebc26)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:50:54 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (bef7a3c1e3ea48f3548eb7754ceebc26)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:50:54 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (bef7a3c1e3ea48f3548eb7754ceebc26)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:51:02 [main] INFO  tests.CartPageTest - Adding 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)' to the cart
+2025-04-26 12:51:22 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:52:48 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:52:48 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:52:51 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:52:53 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:52:53 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:52:53 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:52:53 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:52:53 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a2adbfa869e29c0cc370c43529f5fec3)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:52:58 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a2adbfa869e29c0cc370c43529f5fec3)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:52:58 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (a2adbfa869e29c0cc370c43529f5fec3)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:53:06 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:53:11 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (a2adbfa869e29c0cc370c43529f5fec3)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:53:21 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:53:21 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:53:21 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:53:21 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a2adbfa869e29c0cc370c43529f5fec3)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:53:26 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a2adbfa869e29c0cc370c43529f5fec3)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:53:26 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (a2adbfa869e29c0cc370c43529f5fec3)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:53:34 [main] INFO  tests.CartPageTest - Adding 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)' to the cart
+2025-04-26 12:53:54 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:56:24 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:56:24 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:56:27 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:56:28 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:56:28 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:56:28 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:56:28 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (6b72869baa2225b0840ac1c11b77ca4b)] -> css selector: input[placeholder='Пошук']] Keys:   
+2025-04-26 12:56:34 [main] INFO  driver.LoggingWebElementDecorator - Clearing text in element: [[EdgeDriver: MicrosoftEdge on windows (6b72869baa2225b0840ac1c11b77ca4b)] -> css selector: input[placeholder='Пошук']]
+2025-04-26 12:56:34 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (6b72869baa2225b0840ac1c11b77ca4b)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:56:34 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (6b72869baa2225b0840ac1c11b77ca4b)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:56:43 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
+2025-04-26 12:56:43 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:57:03 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:57:03 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:57:05 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:57:07 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:57:07 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:57:07 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:57:07 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:57:08 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> css selector: input[placeholder='Пошук']] Keys:   
+2025-04-26 12:57:14 [main] INFO  driver.LoggingWebElementDecorator - Clearing text in element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> css selector: input[placeholder='Пошук']]
+2025-04-26 12:57:14 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:57:14 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:57:22 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:57:27 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:57:37 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:57:37 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:57:37 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:57:37 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> css selector: input[placeholder='Пошук']] Keys:   
+2025-04-26 12:57:42 [main] INFO  driver.LoggingWebElementDecorator - Clearing text in element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> css selector: input[placeholder='Пошук']]
+2025-04-26 12:57:42 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:57:42 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:57:50 [main] INFO  tests.CartPageTest - Adding 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)' to the cart
+2025-04-26 12:57:55 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (d7247e3ca1c4ae41c4b297b0a60562c8)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:57:59 [main] INFO  tests.CartPageTest - Cart item count: 2
+2025-04-26 12:57:59 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:58:09 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:58:09 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:58:11 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:58:13 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:58:13 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:58:13 [main] INFO  tests.CartPageTest - Test: testAddMultipleProductsToCart - Searching for product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:58:13 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:58:13 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> css selector: input[placeholder='Пошук']] Keys:   
+2025-04-26 12:58:18 [main] INFO  driver.LoggingWebElementDecorator - Clearing text in element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> css selector: input[placeholder='Пошук']]
+2025-04-26 12:58:18 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:58:18 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:58:26 [main] INFO  tests.CartPageTest - Adding 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey' to the cart
+2025-04-26 12:58:32 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:58:41 [main] INFO  tests.CartPageTest - Navigating back to the home page
+2025-04-26 12:58:41 [main] INFO  tests.CartPageTest - Searching for product 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)'
+2025-04-26 12:58:41 [main] INFO  pages.HomePage - Searching for product: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:58:41 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> css selector: input[placeholder='Пошук']] Keys:   
+2025-04-26 12:58:46 [main] INFO  driver.LoggingWebElementDecorator - Clearing text in element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> css selector: input[placeholder='Пошук']]
+2025-04-26 12:58:46 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> css selector: input[placeholder='Пошук']] Keys: Мишка Logitech Wireless Mouse M185 black/red (910-002240)
+2025-04-26 12:58:46 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:58:54 [main] INFO  tests.CartPageTest - Adding 'Мишка Logitech Wireless Mouse M185 black/red (910-002240)' to the cart
+2025-04-26 12:58:59 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (a38a92b64300e73116e4c187bc249656)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:59:04 [main] INFO  tests.CartPageTest - Cart item count: 2
+2025-04-26 12:59:04 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:59:04 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:59:04 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:59:05 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:59:07 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:59:07 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:59:07 [main] INFO  tests.CartPageTest - Test: testAddToCart
+2025-04-26 12:59:07 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:59:07 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (09baa3aedc077ac1000ba8be921f164d)] -> css selector: input[placeholder='Пошук']] Keys:   
+2025-04-26 12:59:12 [main] INFO  driver.LoggingWebElementDecorator - Clearing text in element: [[EdgeDriver: MicrosoftEdge on windows (09baa3aedc077ac1000ba8be921f164d)] -> css selector: input[placeholder='Пошук']]
+2025-04-26 12:59:12 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (09baa3aedc077ac1000ba8be921f164d)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:59:12 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (09baa3aedc077ac1000ba8be921f164d)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:59:20 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (09baa3aedc077ac1000ba8be921f164d)] -> xpath: //button[text()='Купити']]
+2025-04-26 12:59:21 [main] INFO  driver.LoggingWebElementDecorator - Getting text from element: [[EdgeDriver: MicrosoftEdge on windows (09baa3aedc077ac1000ba8be921f164d)] -> xpath: //h1[@data-product-name='']] Text: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:59:21 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:59:21 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:59:21 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:59:22 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:59:23 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:59:23 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:59:23 [main] INFO  tests.HomePageTest - Test: testOpenHomePage - Opening home page
+2025-04-26 12:59:23 [main] INFO  tests.HomePageTest - Home page title: Епіцентр • Національна мережа торговельних центрів
+2025-04-26 12:59:23 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:59:24 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:59:24 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:59:24 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:59:28 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:59:28 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:59:28 [main] INFO  pages.HomePage - Searching for product: Ноутбук
+2025-04-26 12:59:28 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (b756cde1f8ff77f27823a58cf7d22003)] -> css selector: input[placeholder='Пошук']] Keys:   
+2025-04-26 12:59:34 [main] INFO  driver.LoggingWebElementDecorator - Clearing text in element: [[EdgeDriver: MicrosoftEdge on windows (b756cde1f8ff77f27823a58cf7d22003)] -> css selector: input[placeholder='Пошук']]
+2025-04-26 12:59:34 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (b756cde1f8ff77f27823a58cf7d22003)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук
+2025-04-26 12:59:34 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (b756cde1f8ff77f27823a58cf7d22003)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:59:42 [main] INFO  tests.HomePageTest - Current URL after search: https://epicentrk.ua/ua/shop/noutbuki/
+2025-04-26 12:59:42 [main] INFO  driver.SingletonDriver - Closing WebDriver
+2025-04-26 12:59:42 [main] INFO  driver.SingletonDriver - Initializing WebDriver instance
+2025-04-26 12:59:42 [main] INFO  driver.SingletonDriver - Creating WebDriver for browser: edge
+2025-04-26 12:59:44 [main] INFO  driver.SingletonDriver - Browser window maximized
+2025-04-26 12:59:45 [main] INFO  tests.BaseTest - Navigating to https://www.epicentrk.ua/
+2025-04-26 12:59:45 [main] INFO  tests.BaseTest - Implicit Wait: 15s
+2025-04-26 12:59:45 [main] INFO  tests.ProductPageTest - Test: testProductName - Searching for existing product 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:59:45 [main] INFO  pages.HomePage - Searching for product: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:59:45 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (ca34057eb2383daf7a27f7f6280da4dc)] -> css selector: input[placeholder='Пошук']] Keys:   
+2025-04-26 12:59:51 [main] INFO  driver.LoggingWebElementDecorator - Clearing text in element: [[EdgeDriver: MicrosoftEdge on windows (ca34057eb2383daf7a27f7f6280da4dc)] -> css selector: input[placeholder='Пошук']]
+2025-04-26 12:59:51 [main] INFO  driver.LoggingWebElementDecorator - Sending keys to element: [[EdgeDriver: MicrosoftEdge on windows (ca34057eb2383daf7a27f7f6280da4dc)] -> css selector: input[placeholder='Пошук']] Keys: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:59:51 [main] INFO  driver.LoggingWebElementDecorator - Clicking on element: [[EdgeDriver: MicrosoftEdge on windows (ca34057eb2383daf7a27f7f6280da4dc)] -> xpath: //button[@aria-label='Пошук']]
+2025-04-26 12:59:59 [main] INFO  driver.LoggingWebElementDecorator - Getting text from element: [[EdgeDriver: MicrosoftEdge on windows (ca34057eb2383daf7a27f7f6280da4dc)] -> xpath: //h1[@class='_aql9TB _7TBdaN _GuJjCI']] Text: Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey
+2025-04-26 12:59:59 [main] INFO  tests.ProductPageTest - Expected product name: 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey', Found product name: 'Ноутбук Lenovo ideapad Slim 5 16ABR8 16" (82XG009HRA) cloud grey'
+2025-04-26 12:59:59 [main] INFO  driver.SingletonDriver - Closing WebDriver

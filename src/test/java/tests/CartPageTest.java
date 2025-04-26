@@ -23,6 +23,11 @@ public class CartPageTest extends BaseTest {
         logger.info("Test: testAddMultipleProductsToCart - Searching for product '{}'", NOTEBOOK_PRODUCT_NAME);
         homePage.searchForProduct(NOTEBOOK_PRODUCT_NAME);
         logger.info("Adding '{}' to the cart", NOTEBOOK_PRODUCT_NAME);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         productPage.addProductToCart();
         try {
             Thread.sleep(4000);
@@ -30,10 +35,20 @@ public class CartPageTest extends BaseTest {
             throw new RuntimeException(e);
         }
         driver.navigate().back();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         logger.info("Navigating back to the home page");
         logger.info("Searching for product '{}'", MOUSE_PRODUCT_NAME);
         homePage.searchForProduct(MOUSE_PRODUCT_NAME);
         logger.info("Adding '{}' to the cart", MOUSE_PRODUCT_NAME);
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         productPage.addProductToCart();
         try {
             Thread.sleep(4000);
